@@ -1,0 +1,27 @@
+{
+  "name": "hobbycraft",
+  "version": "1.0.0",
+  "description": "Hobbycraft Website",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "node-sass": "^3.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "foundation-sites": "^6.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-sass-glob": "^1.0.6",
+    "gulp-util": "^3.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hobbycraft"
+  ],
+  "author": "Cormac McGloin",
+  "license": "ISC"
+}

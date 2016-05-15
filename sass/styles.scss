@@ -1,0 +1,29 @@
+@import "partials/**/*.scss";
+
+
+
+.lt-ie10{
+@include foundation-grid;
+}
+
+.red-bg {
+	background: red;
+}
+
+.blue-bg {
+	background: blue;
+}
+
+.green-bg {
+	background: green;
+}
+
+
+.test {
+	@include flex;
+}
+
+
+h1 {
+    color: $black;
+}

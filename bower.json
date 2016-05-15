@@ -1,0 +1,24 @@
+{
+  "name": "hobbycraft",
+  "description": "Hobbycraft Website",
+  "main": "gulpfile.js",
+  "authors": [
+    "Cormac McGloin"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Hobbycraft"
+  ],
+  "homepage": "public/index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "^5.5.3"
+  }
+}
