@@ -1,4 +1,6 @@
-@import "partials/**/*.scss";
+@import "partials/foundation.scss";
+@import "partials/settings.scss";
+@import "partials/base.scss";
 
 
 
@@ -6,24 +8,13 @@
 @include foundation-grid;
 }
 
-.red-bg {
-	background: red;
-}
-
-.blue-bg {
-	background: blue;
-}
-
-.green-bg {
-	background: green;
-}
-
-
-.test {
-	@include flex;
-}
-
 
 h1 {
     color: $black;
+}
+
+
+input[type='search'] {
+	height: 32px;
+	border-color: $primary-color;
 }
