@@ -18,3 +18,26 @@ input[type='search'] {
 	height: 32px;
 	border-color: $primary-color;
 }
+
+
+
+.options {
+	margin: 100px 0;
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+}
+
+
+.option {
+	flex-grow: 1;
+    flex-shrink: 0;
+	border-right: 1px solid #ccc;
+}
+
+.option:last-of-type {
+	border:none;
+}
